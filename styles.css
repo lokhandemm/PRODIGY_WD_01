@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.nav-item {
+    margin: 0 20px;
+}
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.nav-item a:hover {
+    color: #ff6347;
+}
+.content {
+    padding-top: 60px;
+}
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+#home {
+    background: linear-gradient(to bottom right, #1e90ff, #87cefa);
+}
+#about {
+    background: linear-gradient(to bottom right, #ff7f50, #ff6347);
+}
+#services {
+    background: linear-gradient(to bottom right, #32cd32, #98fb98);
+}
+#contact {
+    background: linear-gradient(to bottom right, #8a2be2, #dda0dd);
+}
